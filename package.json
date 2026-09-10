@@ -1,0 +1,21 @@
+{
+  "name": "tts-front",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Frontend MVP for a LAN-hosted virtual tabletop: PixiJS scene that passively renders tokens on a 100x100 grid.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pixi-viewport": "^6.0.3",
+    "pixi.js": "^8.20.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.0",
+    "vite": "^8.3.0"
+  }
+}
